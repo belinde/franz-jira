@@ -1,11 +1,12 @@
 {
-  "id": "jira",
+  "id": "franz-jira",
   "name": "Jira",
   "version": "1.0.0",
-  "description": "Jira",
+  "description": "Use Jira from inside Franz",
   "main": "index.js",
   "author": "Franco Traversaro <f.traversaro@gmail.com>",
-  "license": "GPL-3",
+  "license": "MIT",
+  "repository": "https://github.com/belinde/franz-jira",
   "config": {
     "serviceURL": "https://{teamId}.atlassian.net/",
     "hasTeamId": true,
