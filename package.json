@@ -1,0 +1,14 @@
+{
+  "id": "jira",
+  "name": "Jira",
+  "version": "1.0.0",
+  "description": "Jira",
+  "main": "index.js",
+  "author": "Franco Traversaro <f.traversaro@gmail.com>",
+  "license": "GPL-3",
+  "config": {
+    "serviceURL": "https://{teamId}.atlassian.net/",
+    "hasTeamId": true,
+    "urlInputSuffix": ".atlassian.net"
+  }
+}
